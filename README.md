@@ -1,17 +1,19 @@
 # ALX Listing App
 
-This project is part of the ALX ProDev Frontend track.  
-It is the starting point of building an **Airbnb-style property listing page** using **Next.js, TypeScript, and TailwindCSS**.
+This is the ALX Listing App, a scaffolded Airbnb clone project built with Next.js, TypeScript, TailwindCSS, and ESLint.
 
----
+## Project Goals
+- Build a responsive property listing page.
+- Use reusable components for scalability.
+- Follow industry best practices.
 
-## 🚀 Project Goals
-- Scaffold a production-ready Next.js app.
-- Use TypeScript for type safety.
-- Configure TailwindCSS for modern responsive styling.
-- Create reusable components (Card, Button).
-- Organize assets and constants for scalability.
+## Project Structure
+- `components/common/` → Reusable UI components (Card, Button).
+- `interfaces/` → TypeScript interfaces for props and data.
+- `constants/` → Reusable constants and configuration.
+- `public/assets/` → Static images and icons.
 
----
-
-## 📂 Folder Structure
+## Running the Project
+1. Install dependencies:
+   ```bash
+   npm install

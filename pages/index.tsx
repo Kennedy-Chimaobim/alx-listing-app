@@ -1,13 +1,24 @@
-import Card from "@/components/common/Card";
+import React from "react";
+import Card from "../components/common/Card";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <Card
-        title="My First Property"
-        description="This is a test property card built with Next.js + Tailwind."
-        imageUrl="/assets/screenshot-2.png"
-      />
-    </div>
+    <main className="p-8">
+      <h1 className="text-2xl font-bold mb-6">Welcome to ALX Listing App</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <Card
+          title="Cute Puppy Apartment"
+          description="A cozy apartment with a puppy-friendly vibe."
+          imageUrl="/assets/puppy.jpg"
+          buttonLabel="Book Now"
+        />
+        <Card
+          title="Tower House"
+          description="A modern tower-style house with great views."
+          imageUrl="/assets/tower-house.jpg"
+          buttonLabel="Details"
+        />
+      </div>
+    </main>
   );
 }
